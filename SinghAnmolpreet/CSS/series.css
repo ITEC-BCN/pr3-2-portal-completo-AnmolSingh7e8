@@ -1,0 +1,31 @@
+.contenidor-series{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    margin: 10px;
+    background-color:burlywood;
+}
+
+.head-series{
+    text-align: center;
+}
+
+.series{
+    margin-right: 300px;
+    margin-top: 20px;
+    background-color: bisque;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.series h3{
+text-align: center;
+}
+
+.series img{
+    width: 300px;
+    height: 400px;
+}
+series.hover{
+    background-color: white;
+}

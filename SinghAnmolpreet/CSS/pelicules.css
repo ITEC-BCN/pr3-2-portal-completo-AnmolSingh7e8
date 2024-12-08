@@ -1,0 +1,33 @@
+*{
+}
+
+.head-peliculas{
+    background-color: rgb(143, 41, 41);
+    color:white;
+    text-align: center;
+    padding: 5px;
+}
+.contenidor-pelicules{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    background-color: white;
+    width: 100%;
+}
+
+.pelicula{
+    margin-right: 300px;
+    margin-top: 20px;
+    background-color: bisque;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.pelicula img{
+    height: 400px;
+    width: 300px;
+}
+.ul_peli{
+    width: 100%;
+    display: flex;
+}

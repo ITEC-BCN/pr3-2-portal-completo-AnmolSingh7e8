@@ -1,0 +1,225 @@
+.contenidor-header{
+    position: sticky;
+    top: 0px;
+    padding: 10px 10px;
+    width: 100%;
+    background-color: #E03C31;
+}
+
+.logoitb{
+    display: block;
+    margin: auto;
+    top: 0;
+    max-height: fit-content;
+    overflow: hidden;
+    background-color: #E03C31;
+}
+
+.logoitb img{
+    width: 30%;
+}
+
+#menu{
+    display: flex;
+    gap: 15px;
+    text-align: center;
+}
+
+#menu ul{
+    text-align: center;
+    padding-left: 100px;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu a{
+    color: white;
+    border: 3px solid black;
+    padding: 5px 5px;
+    line-height: 50px;
+    text-decoration: none;
+    margin-left: 160px;
+}
+
+#menu li a:hover{
+    background-color: rgb(224, 92, 80);
+
+}
+
+.head-peliculas{
+    background: white;
+    text-align: center;
+    font-size: 25px;
+}
+.contenidor-pelicules{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    gap: 30px;
+}
+
+.pelicula{
+    margin: 10px;
+    display: inline-block;
+}
+.info-peli{
+    margin-left: 50px;
+    margin-right: 100px;
+    font-size: 20px;
+    color: white;
+    border: 3px solid black;
+    background-color:#E03C31;    
+}
+
+.info-peli:hover{
+    background-color: rgb(224, 92, 80);
+}
+
+.pelicula img{
+    height: 400px;
+    width: 300px;
+}
+.ul_peli{
+    width: 100%;
+    display: flex;
+}
+
+.contenidor-actors{
+    display: flex;
+    gap: 50px;
+    background-color: black;
+}
+
+.head-actors{
+    text-align: center;
+    font-size: 25px;
+}
+
+.actors{
+    display: inline-block;
+    color: white;
+    margin: 20px;
+}
+
+.actors img{
+    width: 150px;
+    height: auto;
+}
+
+.actors p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.contenidors-festivals{
+    float: left;
+    height: 1001px;
+    width: 300px;
+    background-color: #ec867ff5;
+}
+
+.head-festival{
+    border-bottom: 100px;
+}
+
+.festival{
+    margin: 30px;
+    display: inline-block;
+}
+
+.festival img{
+    width: 200px;
+}
+
+.contenidor-series{
+    background-color: lightblue;
+    height: 1001px;
+}
+
+.head-series{
+    text-align: center;
+    font-size: 25px;
+}
+.orden-series{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+
+}
+.series{
+    gap: 20px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+series:hover{
+    background-color: white;
+}
+
+.series h3{
+    margin-left: 40px;
+}
+
+.series img{
+    width: 200px;
+    height: 300px;
+}
+
+.info-series{
+    margin-left: 20px;
+    margin-right: 300px;
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: rgb(98, 206, 230);    
+}
+
+.info-series:hover{
+    background-color: aqua;
+}
+
+.contenidor-vist{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+}
+
+.head-vist{
+    text-align: center;
+}
+
+.vist{
+    display: inline-block;
+    margin: 40px;
+    color: white;
+}
+.vist img{
+    width: 175px;
+    height: 200px;
+}
+
+.vist h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.contenidor-footer{
+    display: flex;
+    background-color: white;
+}
+
+.xarxes{
+    display: flex;
+    margin-right: 550px;
+    gap: 30px;
+}
+
+
+.direccio{
+    display: flex;
+    margin-left: 550px;
+    gap: 30px;
+
+}
