@@ -1,3 +1,52 @@
+.contenidor-header{
+    position: sticky;
+    top: 0px;
+    padding: 10px 10px;
+    width: 100%;
+    background-color: #E03C31;
+}
+
+.logoitb{
+    display: block;
+    margin: auto;
+    top: 0;
+    max-height: fit-content;
+    overflow: hidden;
+    background-color: #E03C31;
+}
+
+.logoitb img{
+    width: 30%;
+}
+
+#menu{
+    display: flex;
+    gap: 15px;
+    text-align: center;
+}
+
+#menu ul{
+    text-align: center;
+    padding-left: 100px;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu a{
+    color: white;
+    border: 3px solid black;
+    padding: 5px 5px;
+    line-height: 50px;
+    text-decoration: none;
+    margin-left: 160px;
+}
+
+#menu li a:hover{
+    background-color: rgb(224, 92, 80);
+
+}
 .contenidor-series{
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr;
@@ -28,4 +77,23 @@ text-align: center;
 }
 series.hover{
     background-color: white;
+}
+
+.contenidor-footer{
+    display: flex;
+    background-color: white;
+}
+
+.xarxes{
+    display: flex;
+    margin-right: 650px;
+    gap: 30px;
+}
+
+
+.direccio{
+    display: flex;
+    margin-left: 600px;
+    gap: 30px;
+
 }
